@@ -21,4 +21,4 @@ jobs:
         v-version: latest
       id: v
     - name: Build d0nt
-      run: /opt/hostedtoolcache/nocturlab/setup-vlang-action/latest/x64/v/v -prod -autofree d0nt.v
+      run: /opt/hostedtoolcache/nocturlab/setup-vlang-action/latest/x64/v -prod -autofree d0nt.v
