@@ -1,0 +1,7 @@
+main
+d0nt
+*.so
+*.dylib
+*.dll
+*.exe
+*.bat
