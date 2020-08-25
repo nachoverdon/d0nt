@@ -10,7 +10,7 @@ public ThingThatDealsWithMoney {
     String user = "nachoverdon";
     String password = "s3cUr€pA5sW0rD";
     boolean secure = true;
-    
+
     login(user, password, true);
   }
 }
@@ -22,6 +22,7 @@ Call the program from your repository's `.git/hooks/pre-commit` file.
 #!/bin/bash
 
 C:/projects/tools/d0nt/d0nt.exe
+exit $?
 ```
 
 If `@d0nt` is found, the commit will fail.
