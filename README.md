@@ -11,7 +11,7 @@ public ThingThatDealsWithMoney {
     String password = "s3cUr€pA5sW0rD";
     boolean secure = true;
     
-    login(user, password, true)
+    login(user, password, true);
   }
 }
 ```
